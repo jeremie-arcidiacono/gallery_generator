@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Visionner les miniatures</title>
+    <meta name="description" content="Affichage des miniatures créer par le programme galerie.sh" />
+    <meta name="author" content="Jérémie Arcidiacono" />
+    [REPLACE_CSS]
+</head>
+
+<body class="main">
+    <div id="allInfoBox">
+        <div class="card" id="infoFile">
+            <div class="card-header">
+                Informations du fichier
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item" id="fileName">Nom du fichier : <span>[REPLACE_INFO_NAME]</span></li>
+                <li class="list-group-item" id="fileDateCreation">Créer le : <span>[REPLACE_INFO_DATE]</span></li>
+            </ul>
+        </div>
+        <div class="card" id="infoImg">
+            <div class="card-header">
+                Informations des images
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item" id="imgNumber">Nombres : <span>[REPLACE_INFO_NB]</span></li>
+                <li class="list-group-item" id="imgSize">Tailles : <span>[REPLACE_INFO_SIZE]</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="allImgBox">
+        [REPLACE_IMG]
+    </div>
+</body>
+
+</html>

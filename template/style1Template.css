@@ -1,0 +1,40 @@
+body.main {
+    min-width: 650px;
+    width: 80%;
+    margin: 2% auto auto auto;
+}
+
+#allInfoBox {
+    width: 50%;
+    min-width: 270px;
+    max-width: 450px;
+    margin: 2% 4% auto auto;
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    left: 60%;
+}
+
+#allInfoBox div:last-child {
+    margin-top: 2%;
+}
+
+li span {
+    font-weight: bold;
+}
+
+#allImgBox {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#allImgBox div {
+    width: [REPLACE_IMG_WIDTH]px;
+}
+
+figure.figure{
+    margin-top: 2%;
+}
