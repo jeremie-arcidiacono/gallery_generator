@@ -4,7 +4,7 @@
 # Date        : octobre 2020 - janvier 2021
 # Cours       : Atelier Infra
 # Description : Créer un fichier html contenant des images redimensionnées
-# Version     : V2.3
+# Version     : V2.5
 # Travail noté
 
 clear
